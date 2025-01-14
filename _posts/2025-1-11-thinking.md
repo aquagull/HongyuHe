@@ -1,6 +1,4 @@
 ---
----
-layout: post
 title: "Think for Thinking"
 date: 2025-1-11
 categories: 
