@@ -1,9 +1,16 @@
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-        }
-    });
-</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVvLgH90hMxCPEJ0QQR5lIi1hEeqvK/WjK/tR1XeD7m3mk7Rb4nrFv8E+kpwvB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKy0wknTg3PKeTzDCSUJIfljwj66EwuwZgkTrjz9lcIMv/rzgmjl1jy2v7hcNJB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-nanDOUz9Y71lKZ69lR9T1Z6t/aY+3C3vj8C4dM/lD237j4gq/Z/j6qO88W6y0V" crossorigin="anonymous"></script>
+ <script>
+     document.addEventListener("DOMContentLoaded", function() {
+     renderMathInElement(document.body, {
+         delimiters: [
+               {left: '$$', right: '$$', display: true},
+               {left: '$', right: '$', display: false},
+               {left: '\\(', right: '\\)', display: false},
+               {left: '\\[', right: '\\]', display: true}
+         ],
+         throwOnError : false
+     });
+     });
+ </script>
