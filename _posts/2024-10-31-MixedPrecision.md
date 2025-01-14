@@ -1,4 +1,5 @@
 ---
+layout: math
 title: "Mixed Precision"
 date: 2024-10-31
 categories: 
