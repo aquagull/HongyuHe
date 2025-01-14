@@ -1,21 +1,10 @@
 ---
 title: "Mixed Precision"
 date: 2024-10-31
+mathjax: true
 categories: 
   - distributed training
 ---
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
-
 
 为什么需要混合精度训练？使用fp16训练相比于fp32，带来的好处有：
 1. **减少内存占用**
