@@ -115,7 +115,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/cc.jpg"
-  bio              : "***Keep thinking***"
+  bio              : "*Keep thinking*"
   location         : "Shenzhen,Nanshan"
   email            : "hongyuh@gmail.com"
   links:
