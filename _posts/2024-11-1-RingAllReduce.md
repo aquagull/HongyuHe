@@ -2,7 +2,8 @@
 title: "Ring AllReduce"
 date: 2024-11-1
 mathjax: true
-categories: [distributed training]
+categories: 
+    - distributed training
 ---
 
 ## 传统多卡并行
