@@ -5,6 +5,7 @@ categories:
   - distributed training
 ---
 
+
 之前几代的Parameter Server都没能够给出让人接受的答案，主要是因为分布式训练参数的中心化存储有着以下几个问题：
 
 1. **同步通信**：在完成一个训练任务的时候，worker需要发送梯度给参数服务器，server将这些梯度平均计算，然后用来更新参数，再将参数发回给worker，拿到参数worker才能进行下一个batch的训练。这可能会带来以下的问题：
