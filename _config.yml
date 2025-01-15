@@ -117,9 +117,9 @@ author:
   avatar           : "/assets/images/cc.jpg"
   bio              : "*Keep thinking*"
   location         : "Shenzhen,Nanshan"
-  email            : "hongyuh@gmail.com"
+  # email            : "hongyuh@gmail.com"
   links:
-    - label: "GoogleEmail"
+    - label: "Google Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "aquawheel7@gmail.com"
     - label: "Website"
@@ -133,7 +133,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/aquagull"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -231,7 +231,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
-paginate: 7 # amount of posts to show
+paginate: 9 # amount of posts to show
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
